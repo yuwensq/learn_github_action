@@ -12,5 +12,5 @@ jobs:
       - run: npm install -g bats
       - run: bats -v
       - run: |
-          g++ a.cpp -o a
+          clang++ a.cpp -o a
           ./a
